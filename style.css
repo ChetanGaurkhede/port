@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;    
+    font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+section{
+    width: 70%;
+    margin: auto;
+}
+body{
+    background-color: #000000;
+}
+
+nav .logo img{
+    width: 75px;
+    border-radius: 50%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+    background-color: #1a1a1a;
+    width: 100vw;
+}
+
+nav{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    margin: 15px;
+    font-weight: 400;
+}
+
+.main-container{
+    padding-top: 75px;
+    margin: auto;
+    color: white;
+    /* display: flex; */
+    justify-content: center;
+}
+
+.hi-container{
+    font-size: 1.2rem;
+
+}
+
+.my-name{
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 120px;
+    top: 258px;
+    background: linear-gradient(100deg, #c79fed -1.72%, #33d2ff 54.05%, #ca1086 99.78%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.my-info{
+    font-size: 1.1rem;
+}
+
+.contact-info{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+}
+.contact-me{
+    margin: 50px 0px 20px;
+    color: white;
+}
+
+.contact-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 8px;
+    gap: 10px;
+}
+.contact-logo a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.logo{
+    width: 30px;
+}
+
+@media (max-height: 680px), screen and (orientation: portrait) {
+    section{
+        width: 90%;
+    }
+     nav{
+        width: 100%;
+    }
+    nav .logo img{
+        width: 50px;
+        margin-left: 20px;
+        border-radius: 50%;
+    }
+    /* body{
+        padding-right: 0px;
+    } */
+    .my-name{
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 3rem;
+        padding: 20px 0px;
+    }
+    .contact-logo{
+        width: 150px;
+    }
+    .contact-info{
+        justify-content: center;
+    }
+    .contact-me{
+        font-size: 12px;
+    }
+  }
