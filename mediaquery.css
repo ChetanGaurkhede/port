@@ -20,12 +20,18 @@
         padding: 20px 0px;
     }
     .contact-logo{
-        width: 150px;
+        width: 130px;
+        height: 30px;
+        border: 1px solid white
     }
     .contact-info{
         justify-content: center;
     }
     .contact-me{
         font-size: 12px;
+    }
+    .contact-info .contact-logo a{
+        font-size: 12px;
+        font-weight: 400;
     }
   }
