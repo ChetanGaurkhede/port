@@ -8,7 +8,7 @@
   font-style: normal;
 }
 section{
-    width: 1000px;
+    width: 900px;
     margin: auto;
 }
 body{
@@ -29,7 +29,7 @@ header{
 }
 
 nav{
-    width: 1000px;
+    width: 70%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -53,6 +53,7 @@ nav ul li a{
     padding-top: 75px;
     margin: auto;
     color: white;
+    /* display: flex; */
     justify-content: center;
 }
 
