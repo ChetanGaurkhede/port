@@ -8,7 +8,7 @@
   font-style: normal;
 }
 section{
-    width: 70%;
+    width: 1000px;
     margin: auto;
 }
 body{
@@ -29,7 +29,7 @@ header{
 }
 
 nav{
-    width: 70%;
+    width: 1000px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -53,7 +53,6 @@ nav ul li a{
     padding-top: 75px;
     margin: auto;
     color: white;
-    /* display: flex; */
     justify-content: center;
 }
 
@@ -109,35 +108,3 @@ nav ul li a{
 .logo{
     width: 30px;
 }
-
-@media (max-height: 680px), screen and (orientation: portrait) {
-    section{
-        width: 90%;
-    }
-     nav{
-        width: 100%;
-    }
-    nav .logo img{
-        width: 50px;
-        margin-left: 20px;
-        border-radius: 50%;
-    }
-    /* body{
-        padding-right: 0px;
-    } */
-    .my-name{
-        font-weight: 600;
-        font-size: 50px;
-        line-height: 3rem;
-        padding: 20px 0px;
-    }
-    .contact-logo{
-        width: 150px;
-    }
-    .contact-info{
-        justify-content: center;
-    }
-    .contact-me{
-        font-size: 12px;
-    }
-  }
